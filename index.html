@@ -3,97 +3,110 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Coding 101</title>
-	<link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dosis:500,700" rel="stylesheet">
 	<link rel="stylesheet" href="./css/styles.css">
 
 </head>
 <body>
 
 	<header>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
+		<div class="container">
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>	
 	</header>
 
 	<main>
-		<section>
-			<h1>Frontend developer. Film buff.</h1>
+		<section class="intro">
+			<h1>Frontend developer.<br>Film buff.</h1>
 		</section>
 
 		<section id="about">
-			<h2>I'm Matt</h2>
-			<hr>
-			<p>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-				sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-				magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-				quis nostrud exerci tation ullamcorper suscipit lobortis
-				nisl ut aliquip ex ea commodo consequat.
-			</p>
-			<a href="#contact">Contact me!</a>
+			<div class="container">
+				<img src="./images/profile.png" alt="Profile picture of Matt">
+				<h2>I'm Matt</h2>
+				<hr class="light">
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+					sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+					magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+					quis nostrud exerci tation ullamcorper suscipit lobortis
+					nisl ut aliquip ex ea commodo consequat.
+				</p>
+				<a class="cta" href="#contact">Contact me!</a>
+			</div>
 		</section>
 
-		<section id="portfolio">
-			<h2>Portfolio</h2>
-			<span>Project: ASOS x Oculus</span>
-			<span>Brief:</span>
-			<p>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing
-				elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-				dolore magna aliquam.
-			</p>
+		<section id="portfolio" class="portfolio">
+			<div class="container">
+				<h2>Portfolio</h2>
+				<span>Project: ASOS x Oculus</span>
+				<span>Brief:</span>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing
+					elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+					dolore magna aliquam.
+				</p>
+				<a href="https://www.oculus.com/">Visit website</a>
+			</div>
 		</section>
 
 		<section id="experience">
-			<h2>Experience</h2>
-			<ul>
-				<li>
-					<ul>
-						<li>Click</li>
-						<li>Developer</li>
-						<li>2014 - present</li>
-					</ul>
-					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-						sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-						magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-						quis nostrud exerci tation ullamcorper suscipit lobortis
-						nisl ut aliquip ex ea commodo consequat.
-					</p>
-					<hr>
-				</li>
+			<div class="container">
+				<h2>Experience</h2>
+				<ul>
+					<li class="job">
+						<ul class="job-info">
+							<li>Click</li>
+							<li>Developer</li>
+							<li>2014 - present</li>
+						</ul>
+						<p>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+							sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+							magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+							quis nostrud exerci tation ullamcorper suscipit lobortis
+							nisl ut aliquip ex ea commodo consequat.
+						</p>
+						<hr class="light">
+					</li>
 
-				<li>
-					<ul>
-						<li>General Assembly</li>
-						<li>Instructor</li>
-						<li>2015 - present</li>
-					</ul>
-					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-						sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-						magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-						quis nostrud exerci tation ullamcorper suscipit lobortis
-						nisl ut aliquip ex ea commodo consequat.
-					</p>
-					<hr>
-				</li>
-			</ul>
+					<li class="job">
+						<ul class="job-info">
+							<li>General Assembly</li>
+							<li>Instructor</li>
+							<li>2015 - present</li>
+						</ul>
+						<p>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+							sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+							magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+							quis nostrud exerci tation ullamcorper suscipit lobortis
+							nisl ut aliquip ex ea commodo consequat.
+						</p>
+						<hr class="light">
+					</li>
+				</ul>
+			</div>
 		</section>
 
-		<section id="contact">
-			<h2>Let’s talk</h2>
-			<p>
-				I love working with new and exciting people. Please get in
-				touch so we can talk about your next great project.
-			</p>
-			<hr>
-			<span>Email: matt@example.com</span>
+		<section id="contact" class="contact">
+			<div class="container">
+				<h2>Let’s talk</h2>
+				<hr class="dark">
+				<p>
+					I love working with new and exciting people. Please get in
+					touch so we can talk about your next great project.
+				</p>
+				<hr class="dark">
+				<span>Email: matt@example.com</span>
+			</div>	
 		</section>
 	</main>
 
