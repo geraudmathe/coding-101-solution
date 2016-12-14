@@ -1,6 +1,7 @@
 /*
 Purple = #882064
 Soft red = #FBCDBF
+Light grey = #F4F4F2;
 Light yellow = #F9F5B7
 */
 
@@ -86,12 +87,16 @@ hr.dark {
 
 /* intro section */
 
-.intro {
+#intro {
 	background-color: #FBCDBF;
 	padding-bottom: 170px;
 }
 
 /* about section */
+
+#about {
+	padding-bottom: 170px;
+}
 
 img {
 	border-radius: 50%;
@@ -107,31 +112,11 @@ img {
 	padding: 10px 65px;
 }
 
-/* portfolio section */
-
-.portfolio {
-	background-image: url("../images/bg-portfolio.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: white;
-	padding-bottom: 250px;
-}
-
-.portfolio h2 {
-	color: white;
-}
-
-.portfolio span {
-	display: block;
-	font-weight: bold;
-}
-
-.portfolio a {
-	color: white;
-	font-weight: bold;
-}
-
 /* experience section */
+
+#experience {
+	background-color: #F4F4F2;
+}
 
 .job hr {
 	height: 80px;
@@ -145,13 +130,13 @@ img {
 
 /* contact section */
 
-.contact {
+#contact {
 	background-color: #F9F5B7;
 	padding: 170px 0;
 }
 
-.contact span,
-.contact span a {
+#contact span,
+#contact span a {
 	color: black;
 	font-size: 24px;
 	font-weight: bold;
