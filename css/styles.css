@@ -112,22 +112,6 @@ img {
 	padding: 10px 65px;
 }
 
-/* experience section */
-
-#experience {
-	background-color: #F4F4F2;
-}
-
-.job hr {
-	height: 80px;
-}
-
-.job-info {
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 1.5;
-}
-
 /* contact section */
 
 #contact {
